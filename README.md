@@ -31,12 +31,14 @@ To run the project, make sure you have Python and the required libraries install
 3. **Unzip the deep_sort file:**
 	  ```bash
       unzip deep_sort.zip 
-    
-4. **Run the script for detecting:**
+4. **Install the requirements :**
+   	```bash
+    pip install requirement.txt
+5. **Run the script for detecting:**
 	```bash
     python detect.py
 
-5. **Run the script for tracking :**
+6. **Run the script for tracking :**
 	```bash 
     python track.py
     
