@@ -41,11 +41,12 @@ To run the project, make sure you have Python and the required libraries install
 6. **Run the script for tracking :**
 	```bash 
     python track.py
-    
-    
+
+For training on custom dataset :
+1. **Clone the repository:**
+   ```bash
+   python train.py
+   #set the data_path to the path of your yaml file     
 ## Usage of own weights
 
 If you would want the model to detect things that you have trained your model on , you can simply change the weight file of the yolov5n.pt inside the track.py and give your own weight files .
-
-	
-
